@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="cKregister.css">
+</head>
+<body>
+    <!-- Form đăng ký  -->
+    <div>
+        <form action="cKmain.html">
+            <h1 id="dK">Register</h1>
+            <div class="text-box">
+                <h3>Username</h3>
+                <input placeholder="Your username" type="text" required id="name">
+            </div>
+            <div class="text-box" >
+                <h3>Number ( Optional)</h3>
+                <input placeholder="Your number" type="text" id="number">
+            </div>
+            <div class="text-box" >
+                <h3>Password</h3>
+                <input placeholder="Your password" type="password" required id="password">
+            </div>
+            <div class="text-box" >
+                <h3>Repassword</h3>
+                <input placeholder="Confirm your password" type="password" required id="repassword">
+            </div>
+            <div class="text-box1">
+                <button id="button1" onclick="check()">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="cK.js"></script>
+</body>
+</html>

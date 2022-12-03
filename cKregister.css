@@ -1,0 +1,71 @@
+form {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 100px auto 0;
+    padding-bottom: 40px;
+    border-radius: 3px;
+    background-color:linear-gradient(
+        to bottom,pink 25%,white 25%,) ;
+}
+form h3 {
+    box-sizing: border-box;
+    color: rgb(1, 98, 1);
+    
+}
+input {
+    margin: 15px 10px;
+    width: 400px;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 2px rgb(1, 86, 1);
+    background: linear-gradient(
+        to bottom,
+        rgb(1, 98, 1) 96%,rgb(147, 224, 122) 4%
+
+
+    );
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    color: rgb(1, 98, 1);
+}
+button {
+    border: none;
+    background: rgb(1, 76, 1);
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px;
+    width: 200px;
+    color: rgb(241, 235, 235);
+    margin-left: 25px ;
+}
+
+#dK{
+    color:rgb(1, 98, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 33%;
+}
+
+.text-box1{
+    margin-left: 20%;
+}
+
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+}
+.navbar-item {
+    color: black;
+    text-decoration: none;
+    font-size: 130%;
+    margin: 30px;
+}
+.text-box{
+    font-family: "karma", sans-serif;
+}
+
+body{
+    background-color: rgb(223, 242, 211);
+}
+
+
+  
